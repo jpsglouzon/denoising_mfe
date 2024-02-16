@@ -1,4 +1,4 @@
-# dES: A deep multimodal representation learning approach for denoising energy-based RNA secondary structure prediction and for discovering novel RNA (Draft)
+# dES: Deep multimodal representation learning for denoising energy-based RNA secondary structure prediction and for discovering novel RNA (Draft)
 
 What is dES:
 - dES is a novel approach aimed at computing a robust representation of minimum free energy (MFE) structures, effectively mitigating the inherent noise in MFE predictions (F1 score on classification task; MFE: 0.82, dES for MFE: 0.92, validated structure: 0.94). This method is grounded in a denoising autoencoder architecture [1], which generates a stable representation of the minimum free energy structure by learning to reconstruct feature vectors of validated structures from those of MFE structures. These feature vectors are computed by integrating sequence and structural information using the n-motifs model [2]. The learned representation from MFE structures can be generalized to other related energy-based predicted structures, such as maximum expected accuracy and centroid structures.
